@@ -1,5 +1,25 @@
 # svelte
 
+## 5.1.10
+
+### Patch Changes
+
+- fix: ensure video elements autoplay in safari ([#14095](https://github.com/sveltejs/svelte/pull/14095))
+
+- fix: correctly infer `<a>` tag namespace ([#14134](https://github.com/sveltejs/svelte/pull/14134))
+
+- fix: check options namespace for top level `svelte:element`s ([#14101](https://github.com/sveltejs/svelte/pull/14101))
+
+- fix: ensure SvelteMap and SvelteSet work with generators in dev ([#14103](https://github.com/sveltejs/svelte/pull/14103))
+
+- fix: prevent migrated snippet from shadow snippet prop ([#14127](https://github.com/sveltejs/svelte/pull/14127))
+
+- fix: pass along `anchor` in legacy class wrappers ([#14100](https://github.com/sveltejs/svelte/pull/14100))
+
+- fix: recognize all custom element prop definitions ([#14084](https://github.com/sveltejs/svelte/pull/14084))
+
+- fix: migrate multiple declarations with only some exported correctly ([#14126](https://github.com/sveltejs/svelte/pull/14126))
+
 ## 5.1.9
 
 ### Patch Changes
